@@ -77,5 +77,4 @@ Claude と MCP サーバーは「標準入出力（stdin/stdout）」を通じ�
 
 - [MCP 公式クイックスタート](https://modelcontextprotocol.io/quickstart/server)
 - [MCP Kotlin SDK GitHub](https://github.com/modelcontextprotocol/kotlin-sdk)
-- [MCP 仕様ドキュメント](https://modelcontextprotocol.ai/docs)
 - [Claude Developer Documentation](https://docs.anthropic.com/claude/docs)
