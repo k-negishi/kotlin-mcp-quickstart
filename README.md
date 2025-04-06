@@ -23,7 +23,7 @@ sequenceDiagram
     participant MCP as MCP サーバー (Kotlin)
     participant API as 外部 API (米国気象庁)
     
-    User->>CD: 「カリフォルニアの気象警報は？」
+    User->>CD: 「大谷翔平の所属チームの本拠地の天気は？」
     CD->>Claude: ユーザーの質問を転送
     
     Note over Claude: 質問を分析し、<br/>気象情報ツールの使用を決定
@@ -37,7 +37,7 @@ sequenceDiagram
     MCP->>Claude: 整形されたツール実行結果
     
     Claude->>CD: 最終的な回答
-    CD->>User: 「カリフォルニアでは現在3件の警報があります...」
+    CD->>User: 「大谷翔平選手は現在ロサンゼルス・ドジャースに所属しており、その本拠地はドジャー・スタジアム（ロサンゼルス）です。ドジャー・スタジアム周辺の天気は...」
 ```
 
 ## 具体的な通信内容
